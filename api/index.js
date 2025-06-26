@@ -5,3 +5,6 @@ export default function handler(req, res) {
     clientId: CLIENT_ID
   });
 }
+export default function Home() {
+  return <div>Welcome to treflebackup!</div>;
+}
