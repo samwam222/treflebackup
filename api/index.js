@@ -1,10 +1,6 @@
 export default function handler(req, res) {
-  const CLIENT_ID = "1383897057814904924";
   res.status(200).json({
     message: "API is working!",
-    clientId: CLIENT_ID
+    clientId: "1383897057814904924"
   });
-}
-export default function Home() {
-  return <div>Welcome to treflebackup!</div>;
 }
